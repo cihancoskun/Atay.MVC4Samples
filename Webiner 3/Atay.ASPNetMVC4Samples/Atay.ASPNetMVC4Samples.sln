@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atay.ASPNetMVC4Samples.Web", "Atay.ASPNetMVC4Samples.Web\Atay.ASPNetMVC4Samples.Web.csproj", "{B3DB09BE-FD65-49FB-AC38-CAC55F436A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atay.ASPNetMVC4Samples.Tests", "Atay.ASPNetMVC4Samples.Tests\Atay.ASPNetMVC4Samples.Tests.csproj", "{5AAADE4C-AD9B-4691-9F97-E73FF8F9884E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atay.MobileWeb", "Atay.MobileWeb\Atay.MobileWeb.csproj", "{4D43FA3B-DFCE-4DB4-999D-9CF66D518085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D43FA3B-DFCE-4DB4-999D-9CF66D518085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D43FA3B-DFCE-4DB4-999D-9CF66D518085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D43FA3B-DFCE-4DB4-999D-9CF66D518085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D43FA3B-DFCE-4DB4-999D-9CF66D518085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAADE4C-AD9B-4691-9F97-E73FF8F9884E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAADE4C-AD9B-4691-9F97-E73FF8F9884E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAADE4C-AD9B-4691-9F97-E73FF8F9884E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAADE4C-AD9B-4691-9F97-E73FF8F9884E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DB09BE-FD65-49FB-AC38-CAC55F436A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DB09BE-FD65-49FB-AC38-CAC55F436A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DB09BE-FD65-49FB-AC38-CAC55F436A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DB09BE-FD65-49FB-AC38-CAC55F436A14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal

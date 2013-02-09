@@ -1,0 +1,23 @@
+@model Atay.MVC4Samples.Web.Models.Comment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Comment</legend>
+
+    <div class="display-label">CommentContent</div>
+    <div class="display-field">@Model.CommentContent</div>
+
+    <div class="display-label">Page</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Page).ToString()</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CommentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

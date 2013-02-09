@@ -1,0 +1,27 @@
+@model Atay.MVC4Samples.Web.Models.Comment
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.CommentContent)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.CommentContent)
+    @Html.ValidationMessageFor(model => model.CommentContent)
+</div>
+
+<div class="editor-label">
+    Page
+</div>
+<div class="editor-field">
+    @Html.DropDownListFor(model => model.PageId, ((IEnumerable<Atay.MVC4Samples.Web.Models.Page>)
+    ViewBag.PossiblePages).Select(option => new SelectListItem {
+        Text = Html.DisplayTextFor(_ => option).ToString(), 
+        Value = option.PageId.ToString(),
+    
+        Selected = (Model != null) && (option.PageId == Model.PageId)
+    }), "Choose...")
+    
+    @Html.ValidationMessageFor(model => model.Page.Content)
+    
+</div>
