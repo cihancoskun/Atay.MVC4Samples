@@ -5,9 +5,11 @@ ASP.Net MVC 4 ‘ e Giriş Internet Semineri Notları
 http://www.ibrahimatay.org/post/2012/1/27/ASPNet-MVC-4-e-Giris-Internet-Semineri-Notlari.aspx
 
 ASP.Net MVC 4 ile Web Uygulaması Geliştirmek Semineri Notları
+
 http://www.ibrahimatay.org/post/2012/2/4/ASPNet-MVC-4-ile-Web-Uygulamasi-Gelistirmek-Semineri-Notlari.aspx
 
 ASP.Net MVC 4 ve Gelişmiş Özelliklerinin Kullanılması Internet Seminer Notları
+
 http://www.ibrahimatay.org/post/2012/7/1/ASPNet-MVC4-ve-Gelismis-Ozelliklerinin-Kullanilmasi-Internet-Seminer-Notlari.aspx
 
 ASP.Net MVC ile ilgili diğer çalışmalar için aşağıdaki bağlantıyı kullanabilirsiniz.
